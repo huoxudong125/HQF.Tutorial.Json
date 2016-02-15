@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.Json", "Source\HQF.Tutorial.Json\HQF.Tutorial.Json.csproj", "{6CFBF0A9-000F-4084-940A-69B91E7FE49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQF.Tutorial.JsonFormater", "Source\HQF.Tutorial.JsonFormater\HQF.Tutorial.JsonFormater.csproj", "{1321FF48-4D46-4858-BABC-F7153B5CA504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{374166F4-6937-4C9B-8E88-E591073E50C6}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CFBF0A9-000F-4084-940A-69B91E7FE49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFBF0A9-000F-4084-940A-69B91E7FE49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFBF0A9-000F-4084-940A-69B91E7FE49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFBF0A9-000F-4084-940A-69B91E7FE49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1321FF48-4D46-4858-BABC-F7153B5CA504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1321FF48-4D46-4858-BABC-F7153B5CA504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1321FF48-4D46-4858-BABC-F7153B5CA504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1321FF48-4D46-4858-BABC-F7153B5CA504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

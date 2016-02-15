@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="HQF.Tutorial.JsonFormater.Views.ViewA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:local="clr-namespace:HQF.Tutorial.JsonFormater.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" 
+             prism:ViewModelLocator.AutoWireViewModel="True" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
+        <Button Content="FormatJson" Command="{Binding FormatJsonCommand}"/>
+        <TextBox Grid.Row="1" Text="{Binding OrignJson}" Foreground="Green" 
+                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                   FontFamily="Calibri" FontSize="24" FontWeight="Bold"
+                   TextWrapping="Wrap">
+            
+        </TextBox>
+        <GridSplitter Grid.Row="1" Height="5" 
+                      HorizontalAlignment="Stretch" 
+                      Background="Azure" 
+                      VerticalAlignment="Bottom"/>
+
+        <TextBox Grid.Row="2" Text="{Binding FormatedJson}" Foreground="Green" 
+                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                   FontFamily="Calibri" FontSize="24" FontWeight="Bold"
+                   TextWrapping="Wrap">
+
+        </TextBox>
+    </Grid>
+</UserControl>
